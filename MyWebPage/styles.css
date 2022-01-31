@@ -32,6 +32,14 @@
   cursor: pointer;
   background-color: gray;
 }
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
 
 .card {
   display: flex;
