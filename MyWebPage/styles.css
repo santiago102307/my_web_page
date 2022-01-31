@@ -1,0 +1,178 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.picture {
+  border-radius: 22px;
+  border: 2px solid rgb(255, 255, 255);
+  width: 270px;
+}
+.title {
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  width: 25%;
+}
+
+.item {
+  margin-top: 5px;
+  text-align: left;
+  border-bottom: 5px solid gray;
+  border-radius: 8px;
+  padding: 8px;
+  transition: all 200ms;
+}
+
+.item:hover {
+  color: white;
+  cursor: pointer;
+  background-color: gray;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  margin: 20px auto;
+  border: 5px solid #333;
+  border-radius: 5px;
+}
+
+.character {
+  width: 250px;
+}
+
+.text {
+  padding: 5px;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  margin: 20px auto;
+  border: 5px solid #333;
+  border-radius: 5px;
+}
+
+.character {
+  width: 250px;
+}
+
+.text {
+  padding: 5px;
+}
+
+.card3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  margin: 20px auto;
+  border: 5px solid #333;
+  border-radius: 5px;
+}
+
+.character {
+  width: 250px;
+}
+
+.text {
+  padding: 5px;
+}
+
+.card4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  margin: 20px auto;
+  border: 5px solid #333;
+  border-radius: 5px;
+}
+
+.character {
+  width: 250px;
+}
+
+.text {
+  padding: 5px;
+}
+
+.card5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  margin: 20px auto;
+  border: 5px solid #333;
+  border-radius: 5px;
+}
+
+.character {
+  width: 250px;
+}
+
+.text {
+  padding: 5px;
+}
+
+.card6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  margin: 20px auto;
+  border: 5px solid #333;
+  border-radius: 5px;
+}
+
+.character {
+  width: 250px;
+}
+
+.text {
+  padding: 5px;
+}
+
+.card7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  margin: 20px auto;
+  border: 5px solid #333;
+  border-radius: 5px;
+}
+
+.character {
+  width: 250px;
+}
+
+.text {
+  padding: 5px;
+}
+
+* {
+  margin: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+p {
+  text-align: center;
+}
