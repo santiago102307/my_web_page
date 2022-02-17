@@ -38,7 +38,7 @@ img {
   box-shadow: 0 0 3px rgba( 0, 0, 0, .5);
 }
 
-.loader::before {
+.loader:before {
   content: '';
   width: 60px;
   height: 10px;
