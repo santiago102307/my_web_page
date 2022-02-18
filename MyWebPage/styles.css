@@ -81,9 +81,9 @@ img {
 
 .picture {
   border-radius: 20px;
-  border: 2px solid rgb(255, 255, 255);
   width: 280px;
   margin-bottom: 5px;
+  box-shadow: 5px 5px 20px gray;
 }
 
 .name{
@@ -123,6 +123,7 @@ img {
   cursor: pointer;
   background-color: gray;
 }
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -130,7 +131,8 @@ img {
   justify-content: center;
   align-items: center;
   margin: 10px auto;
-  margin-bottom: 100px
+  margin-bottom: 100px;
+  box-shadow: 2px ,10px;
 }
 
 .card {
@@ -139,8 +141,8 @@ img {
   align-items: center;
   width: 250px;
   margin: 20px auto;
-  border: 5px solid #333;
   border-radius: 5px;
+  box-shadow: 5px 5px 20px gray;
 }
 
 .character {
