@@ -124,6 +124,12 @@ img {
   background-color: gray;
 }
 
+.item:active{
+  color: white;
+  cursor: pointer;
+  background-color: rgb(173, 173, 173);
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -149,6 +155,7 @@ img {
   color: white;
   cursor: pointer;
   background-color: gray;
+  transform: scale(1.05, 1.05)
 }
 
 .card:active{
