@@ -145,6 +145,18 @@ img {
   box-shadow: 5px 5px 20px gray;
 }
 
+.card:hover {
+  color: white;
+  cursor: pointer;
+  background-color: gray;
+}
+
+.card:active{
+  color: white;
+  cursor: pointer;
+  background-color: rgb(173, 173, 173);
+}
+
 .character {
   width: 250px;
 }
