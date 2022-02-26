@@ -6,6 +6,7 @@
   --wave-primary: #B2FEFA;
   --wave-secound: #a2d9ff;
   --wave-third: #0ED2F7;
+  --bg: #222;
 }
 
 .header {
@@ -89,7 +90,13 @@ img {
   }
 }
 
+.wave-top{
+  position: absolute;
+  z-index: -99999;
+}
+
 .picture {
+  margin-top: 200px;
   border-radius: 200px;
   width: 280px;
   margin-bottom: 35px;
@@ -121,7 +128,7 @@ img {
 
 .item {
   margin-top: 10px;
-  text-align: left;
+  text-align: center;
   border-bottom: 5px solid gray;
   border-radius: 8px;
   padding: 10px;
@@ -148,7 +155,7 @@ img {
   justify-content: center;
   align-items: center;
   margin: 10px auto;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   box-shadow: 2px ,10px;
 }
 
@@ -189,4 +196,54 @@ img {
 
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.red-social {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  gap: 100px;
+}
+
+.red-social li:hover {
+  z-index: 1000;
+  transform: scale(0.75);
+}
+
+.red-social  {
+  position: relative;
+  list-style: none;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.red-social li a {
+  position: relative;
+  text-decoration: none;
+  color: var(--clr);
+  z-index: 10px;
+  font-size: 3em;
+  transition: 0.5s;
+}
+
+.red-social li:hover a {
+  font-size: 4em;
+  filter: drop-shadow(0 0 20px var(--clr))
+    drop-shadow(0 0 40px var(--clr))
+    drop-shadow(0 0 60px var(--clr));
+}
+
+.footer-wave {
+  position: relative;
+}
+
+.wave-bottom {
+  position: absolute;
 }
