@@ -9,6 +9,11 @@
   --bg: #222;
 }
 
+body{
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Slab', serif;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -146,6 +151,11 @@ img {
   color: var(--primary);
   cursor: pointer;
   background-color: var(--active);
+}
+
+.card-view{
+  text-decoration: none;
+  color: inherit;
 }
 
 .cards {
